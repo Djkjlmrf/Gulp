@@ -93,7 +93,6 @@ body{
 	font-family: Rubik;
 	font-size: 12px;
 	color:#616161;
-	;
 }
 [class*="__container"] {
 	max-width: 1087px;
@@ -528,13 +527,12 @@ color: #000;
   .stay-safe {
     padding: 30px 0;
   }
-    .stay-safe__cantainer{
-      flex-direction: column-reverse;
-    }
-    .stay-safe__content{
+  .stay-safe__container{
+      flex-direction: column-reverse !important;
+  }
+  .stay-safe__content{
       margin: 0 0 30px 0;
-    }
-   
+  }
 }
 @media (max-width: 479.98px){
    .media-stay-safe{
